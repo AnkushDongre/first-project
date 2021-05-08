@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+nav{
+    width: 130px;
+    height: 900px;
+}
+.fa{
+    visibility: hidden;
+}
+.logo{
+    position: absolute;
+    width: 122px;
+    height: 90px;
+    left: 70px;
+    top: 63px;
+    
+    font-family: Abril Fatface;
+    font-style: normal;
+    font-weight: bolder !important;
+    font-size: 40px;
+    line-height: 45px;
+    /* or 112% */
+    
+    
+    color: #000000;
+}
+.navbar{
+    position: absolute;
+    padding-top: 63px;
+    left: 70px;
+}
+.navbar a{
+    position: absolute;
+    width: auto;
+    padding-top: 32px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 43px;
+    font-size: 17px;
+    color: gray;
+    text-decoration: none;
+}
+#navAbout{
+position: absolute;
+top: 216px;
+text-decoration: line-through red;
+color: #000000;
+}
+
+#navServices{
+position: absolute;
+top: 291px;
+}
+
+#navCuisine{
+    position: absolute;
+    top: 366px;
+}
+#navGallary{
+    position: absolute;
+    top: 441px;
+}
+
+#navContact{
+    position: absolute;
+    top: 516px;
+}
+#navContact{
+    position: absolute;
+    top: 516px;
+}
+#navBook{
+    position: absolute;
+    top: 591px;
+}
+
+button{
+    position: absolute;
+    width: 156px;
+    height: 59px;
+    top: 700px;
+   
+    border: none;
+    color: white;
+    background: #FF4E4E;
+    border-radius: 29.5px;
+}
+.headline{
+    position: absolute;
+    width: 651px;
+    height: 185px;
+    left: 340px;
+    top: 138px;
+
+    font-family: Abril Fatface;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 78px;
+    line-height: 119px;
+    /* or 153% */
+
+
+    color: #000000;
+}
+
+.intro{
+    position: absolute;
+    width: 227px;
+    height: 112px;
+    left: 1082px;
+    top: 161px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+
+    color: gray;
+}
+
+.graphic{
+
+    position: absolute;
+    width: 70px;
+    height: 3px;
+    left: 1085px;
+    top: 296px;
+
+    background: #FD4E4E;
+}
+
+.card{
+    position: absolute;
+    margin-top: 140px;
+    width: 204px;
+    height: 257px;
+    top: 463px;
+    background: #FFFFFF;
+    box-shadow: 13px 25px 20px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 26px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+.card1{
+    left: 340px;
+}
+.card2{
+    left: 569px;
+}
+.card2{
+    left: 569px;
+}
+.card3{
+    left: 798px;
+}
+.card4{
+    left: 1027px;
+}
+.card5{
+    left: 1256px;
+}
+img{
+    width: 145px;
+    height: 145px;
+    border-radius: 72.5px;
+}
+
+@media  screen and (max-width: 1440px) {
+
+    nav{
+        width: 130px;
+        height: 900px;
+    }
+    .logo{
+        position: absolute;
+        width: 122px;
+        height: 90px;
+        left: 70px;
+        top: 63px;
+        
+        font-family: Abril Fatface;
+        font-style: normal;
+        font-weight: bolder !important;
+        font-size: 40px;
+        line-height: 45px;
+        /* or 112% */
+        
+        
+        color: #000000;
+    }
+    .navbar{
+        position: absolute;
+        padding-top: 63px;
+        left: 70px;
+    }
+    .navbar a{
+        position: absolute;
+        width: auto;
+        padding-top: 32px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 43px;
+        font-size: 17px;
+        color: gray;
+        text-decoration: none;
+    }
+    #navAbout{
+    position: absolute;
+    top: 216px;
+    text-decoration: line-through red;
+    color: #000000;
+    }
+    
+    #navServices{
+    position: absolute;
+    top: 291px;
+    }
+    
+    #navCuisine{
+        position: absolute;
+        top: 366px;
+    }
+    #navGallary{
+        position: absolute;
+        top: 441px;
+    }
+    
+    #navContact{
+        position: absolute;
+        top: 516px;
+    }
+    #navContact{
+        position: absolute;
+        top: 516px;
+    }
+    #navBook{
+        position: absolute;
+        top: 591px;
+    }
+    
+    button{
+        position: absolute;
+        width: 156px;
+        height: 59px;
+        top: 700px;
+       
+        border: none;
+        color: white;
+        background: #FF4E4E;
+        border-radius: 29.5px;
+    }
+    .headline{
+        position: absolute;
+        width: 651px;
+        height: 185px;
+        left: 340px;
+        top: 138px;
+    
+        font-family: Abril Fatface;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 78px;
+        line-height: 119px;
+        /* or 153% */
+    
+    
+        color: #000000;
+    }
+    
+    .intro{
+        position: absolute;
+        width: 227px;
+        height: 112px;
+        left: 1082px;
+        top: 161px;
+    
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 28px;
+        /* or 156% */
+    
+    
+        color: gray;
+    }
+    
+    .graphic{
+    
+        position: absolute;
+        width: 70px;
+        height: 3px;
+        left: 1085px;
+        top: 296px;
+    
+        background: #FD4E4E;
+    }
+    .card{
+       position: absolute;
+        width: 204px;
+        height: 257px;
+        top: 463px;
+        background: #FFFFFF;
+        box-shadow: 13px 25px 20px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 26px;
+        font-family: sans-serif;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 140px;
+    }
+    .card1{
+        left: 340px;
+    }
+    .card2{
+        left: 569px;
+    }
+    .card3{
+        left: 798px;
+    }
+    .card4{
+        left: 1027px;
+    }
+    .card5{
+        left: 1256px;
+    }
+    img{
+        width: 145px;
+        height: 145px;
+        top: 495px;
+        border-radius: 72.5px;
+    }
+    .img1{
+        left: 369px;
+    }
+
+}
+
+@media  screen and (max-width: 414px) {
+  body{
+    width: 414px;
+  }
+.res1{
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    left: 34px;
+    top: 44px;
+
+background: #FD4E4E;
+}
+.res2{
+    position: absolute;
+    width: 28px;
+    height: 3px;
+    left: 35px;
+    top: 54px;
+    
+    background: #FD4E4E;
+}
+.res3{
+    
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    left: 35px;
+    top: 65px;
+
+    background: #FD4E4E;
+}
+.logo{
+    position: absolute;
+    width: 96px;
+    height: 45px;
+    left: 164px;
+    top: 10px;
+    font-family: Abril Fatface;
+    font-style: normal;
+    font-weight: bolder !important;
+    font-size: 29px;
+    line-height: 46px;
+    color: #000000;
+}
+span{
+    visibility: collapse;
+}
+.fa{
+    visibility: visible;
+    position: absolute;
+    font-size: x-large !important;
+    left: 346px;
+    top: 45px;
+
+    color: #FD4E4E;
+}
+.navbar{
+    visibility: collapse;
+}
+    .headline{
+        position: absolute;
+        width: 269px;
+        height: 94px;
+        left: 35px;
+        top: 141px;
+
+        font-family: Abril Fatface;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 49px;
+    }
+    .card{
+        margin-top: 41px;
+    }
+    .card1{
+        position: absolute;
+        width: 163px;
+        height: 208px;
+        left: 35px;
+        top: 276px;
+
+    }
+    .card2{
+        position: absolute;
+        width: 163px;
+        height: 208px;
+        left: 216px;
+        top: 276px;
+    }
+    .card3{
+        position: absolute;
+        width: 163px;
+        height: 208px;
+        left: 35px;
+        top: 502px;
+    }
+    .card4{
+        position: absolute;
+        width: 163px;
+        height: 208px;
+        left: 216px;
+        top: 502px;
+    }
+    .card5{
+        visibility: hidden;
+    }
+    .intro{
+        position: absolute;
+        width: 331px;
+        height: 79px;
+        left: 35px;
+        top: 749px;
+
+        font-family: Alike;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 28px;
+        color: gray;
+    }
+    .graphic{
+        position: absolute;
+        width: 70px;
+        height: 3px;
+        left: 36px;
+        top: 855px;
+        color: #FD4E4E;
+    }
+}
